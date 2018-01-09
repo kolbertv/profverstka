@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    position: relative;
+    min-width: 768px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    height: 150px;
+    z-index: 100;
+    position: absolute;
+}
+
+header a {
+    text-decoration-line: none;
+    color: rgb(34, 34, 34);
+}
+
+.brand-line {
+    height: 100px;
+}
+
+.brand-line h2 {
+    line-height: 100px;
+}
+
+.menu-line {
+    height: 50px;
+    width: 1600px;
+    background-color: white;
+    text-align: center;
+    border-top: 1px solid rgb(236, 236, 236);
+
+}
+
+.menu-line ul li {
+    display: inline;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 23px;
+}
+
+.menu-line ul {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.menu-line a {
+    text-decoration-line: none;
+    color: rgb(34, 34, 34);
+}
+
+.menu-line a:hover {
+    color: gray;
+}
+
+.brand-line h2{
+    text-decoration-line: none;
+    font-size: 27px;
+    color: rgb(34, 34, 34);
+    font-weight: 300;
+}
+
+.brand-line h2 span {
+    color: red;
+    font-weight: 400;
+}
+
+.brand-line>a {
+    float: left;
+}
+
+.slider {
+    position: absolute;
+    top: 100px;
+    z-index: 0;
+}
