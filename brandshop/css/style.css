@@ -1,4 +1,4 @@
-* {
+*, p {
     padding: 0;
     margin: 0;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    height: 150px;
+    height: 100px;
     z-index: 100;
     position: absolute;
 }
@@ -53,8 +53,8 @@ header a {
 }
 
 .menu-line ul {
-    height: 50px;
-    vertical-align: middle;
+    /*height: 50px;*/
+    /*vertical-align: middle;*/
 }
 
 .menu-line a {
@@ -64,22 +64,28 @@ header a {
 
 .menu-line a:hover {
     color: gray;
+
 }
 
-.brand-line h2{
+.brand-line h2 {
     text-decoration-line: none;
     font-size: 27px;
     color: rgb(34, 34, 34);
-    font-weight: 300;
+    font-weight: 400;
+    padding-top: 5px;
 }
 
 .brand-line h2 span {
     color: red;
-    font-weight: 400;
+    font-weight: 500;
 }
 
-.brand-line>a {
+.brand-line > a {
     float: left;
+    padding-top: 25px;
+    padding-left: 227px;
+    padding-right: 13px;
+
 }
 
 .slider {
@@ -87,3 +93,136 @@ header a {
     top: 100px;
     z-index: 0;
 }
+
+.thebrand {
+    position: absolute;
+    width: 600px;
+    top: 376px;
+    left: 230px;
+}
+
+.thebrandred {
+    height: 92px;
+    width: 12px;
+    background-color: #f16d7f;
+    float: left;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-right: 19px;
+}
+
+.thebrandtext {
+    height: 92px;
+    text-transform: uppercase;
+    /*font-family: "Lato - Black";*/
+    font-weight: 800;
+    font-size: 40px;
+    color: #222222;
+
+}
+
+.thebrandtext p:first-child {
+    font-size: 60px;
+    letter-spacing: 1.5px;
+}
+
+.thebrandtext p:nth-child(2) {
+    font-size: 40px;
+    letter-spacing: 1.0px;
+}
+
+.thebrandtext p:nth-child(2) span {
+    color: #f16d7f;
+}
+
+.category {
+    position: relative;
+    top: 862px;
+    height: 823px;
+    width: 1141px;
+    margin: 0 auto;
+}
+
+.layer30 {
+    position: absolute;
+    width: 560px;
+    height: 542px;
+    float: left;
+    z-index: 1;
+}
+
+.layer32 {
+    position: absolute;
+    width: 560px;
+    height: 261px;
+    right: 0px;
+}
+
+.layer37 {
+    position: absolute;
+    width: 560px;
+    height: 261px;
+    background-color: #dadad2;
+    bottom: 0px;
+}
+
+.layer37 img {
+    padding-left: 149px;
+}
+
+.layer31 {
+    position: absolute;
+    width: 560px;
+    height: 542px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.layertextstyle {
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 10;
+    background-color: white;
+    padding: 16px 20px;
+    box-sizing: border-box;
+}
+
+.layertextstyle p:nth-child(1) {
+    font-size: 18px;
+    letter-spacing: 0.45px;
+}
+
+.layertextstyle p:nth-child(2) {
+    font-size: 30px;
+    letter-spacing: 0.75px;
+    color: #f16d7f;
+}
+
+.layer30text {
+
+    margin-top: 26px;
+}
+
+.layer32text {
+
+    margin-top: 26px;
+    left: 581px;
+}
+
+.layer37text {
+
+    bottom: 145px;
+}
+
+.layer31text {
+
+    bottom: 425px;
+    left: 581px;
+}
+
+.featureditems {
+    position: absolute;
+    top: 1785px;
+}
+
