@@ -8,11 +8,16 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     position: relative;
     min-width: 768px;
     max-width: 1600px;
     margin: 0 auto;
+    height: 764px;
 }
 
 header {
@@ -137,10 +142,10 @@ header a {
 
 .category {
     position: relative;
-    top: 862px;
+    /*top: 862px;*/
     height: 823px;
     width: 1141px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 .layer30 {
@@ -221,8 +226,133 @@ header a {
     left: 581px;
 }
 
+.layer30:hover {
+    cursor: pointer;
+}
+
+.layer32:hover {
+    cursor: pointer;
+}
+
+.layer37:hover {
+    cursor: pointer;
+}
+
+.layer31:hover {
+    cursor: pointer;
+}
+
+.layer30:hover ~ .layer30text {
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.16);
+
+}
+
+.layer32:hover ~ .layer32text {
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.16);
+}
+
+.layer37:hover ~ .layer37text {
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.16);
+}
+
+.layer31:hover ~ .layer31text {
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.16);
+}
+
 .featureditems {
+    height: 108px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.featureditems p:nth-child(1) {
+    color: #222222;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    line-height: 54px;
+
+}
+
+.featureditems p:nth-child(2) {
+    color: #9f9f9f;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: 54px;
+}
+
+.product {
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    /*background-color: aqua;*/
+
+}
+
+.product-item-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.product-item-flex a {
+    text-decoration: none;
+}
+
+.item-flex {
+    /*background-color: aquamarine;*/
+    height: 364px;
+    width: 263px;
+    margin: 16px;
+}
+
+.item-flex img {
     position: absolute;
-    top: 1785px;
+    width: 263px;
+    height: 280px;
+}
+
+.item-flex:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.item-flex>div {
+    width: 263px;
+    height: 280px;
+}
+
+.item-flex:hover div {
+    background-color: black;
+}
+
+.item-flex:hover>div>img {
+    opacity: 0.5;
+}
+
+.item-text-style p {
+    padding-left: 14px;
+}
+
+.item-text-style p:nth-child(2) {
+    height: 11px;
+    color: #222222;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 17px;
+}
+
+.item-text-style p:nth-child(3) {
+    height: 15px;
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
