@@ -3,8 +3,9 @@
     margin: 0;
 }
 
-main {
+main, html {
     margin: 0 auto;
+    height: 100%;
 }
 
 body {
@@ -37,8 +38,10 @@ header a {
 
 .brand-line {
     height: 100px;
+    width: 1142px;
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
 
 .brand-line h2 {
@@ -55,7 +58,7 @@ header a {
 }
 
 .brand-line > a:nth-child(1) {
-    margin-left: 227px;
+    /*margin-left: 227px;*/
     margin-right: 13px;
 }
 
@@ -775,7 +778,7 @@ header a {
 }
 
 .footer-main {
-    width: 1099px;
+    width: 1150px;
     height: 260px;
     /*background-color: cornflowerblue;*/
     margin: 0 auto 89px;

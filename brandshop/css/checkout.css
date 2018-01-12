@@ -1,0 +1,223 @@
+.container {
+    height: 151px;
+}
+
+main {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+main .new-arrivals {
+    width: 1600px;
+    height: 148px;
+    background-color: #f8f3f4;
+    display: flex;
+    /*align-items: baseline;*/
+
+}
+
+main .new-arrivals div {
+    width: 1142px;
+    height: 29px;
+    /*height: 148px;*/
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+main .new-arrivals p {
+    width: 176px;
+    /*height: 24px;*/
+    color: #f16d7f;
+    font-size: 24px;
+    font-weight: 400;
+    /*line-height: 40px;*/
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+main .new-arrivals ul {
+    width: 196px;
+    height: 11px;
+
+}
+
+main .new-arrivals ul li {
+    display: inline;
+
+}
+
+main .new-arrivals a {
+    color: #636363;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+main .new-arrivals ul li:nth-child(3) a {
+    color: #f16d7f;
+    font-weight: 700;
+}
+
+
+main .shipping-adress-styling>div {
+    width: 44%;
+    /*background-color: #f16d7f;*/
+}
+
+main summary{
+    width: auto;
+    font-size: 16px;
+    color: #222222;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+}
+main summary::-webkit-details-marker {
+    display: none;
+}
+
+main summary:focus {
+    outline: none;
+}
+
+main summary:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #f16d7f;
+}
+
+main .shipping-and-all {
+    width: 1140px;
+    margin: 89px auto;
+    outline: none;
+}
+
+main .shipping-adress-styling {
+    width: 940px;
+    height: 449px;
+    /*background-color: aqua;*/
+    margin-left: 34px;
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main .shipping-adress-styling p {
+    color: #b3b2b2;
+    font-size: 13px;
+    font-weight: 400;
+    /*line-height: 20px;*/
+}
+
+main .shipping-adress-styling p:nth-child(1) {
+    color: #222222;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+
+main .shipping-adress-styling div:nth-child(1) p:nth-child(2) {
+    margin-bottom: 34px;
+  }
+
+main .shipping-adress-styling div:nth-child(1) input:nth-child(3) {
+    margin-bottom: 20px;
+}
+
+main .shipping-adress-styling div:nth-child(1) input:nth-child(6) {
+    margin-bottom: 20px;
+}
+
+main .shipping-adress-styling div:nth-child(1) p:nth-child(8) {
+    margin-bottom: 15px;
+    color: #222222;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+main .shipping-adress-styling div:nth-child(1) p:nth-child(9) {
+    margin-bottom: 33px;
+}
+
+main .shipping-adress-styling div:nth-child(1) p:nth-child(10) {
+    margin-bottom: 15px;
+}
+
+main .shipping-adress-styling label {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 10px;
+
+}
+
+main .shipping-adress-styling button {
+    margin-top: 40px;
+    width: 180px;
+    height: 50px;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid #eaeaea;
+    outline: none;
+}
+
+main .shipping-adress-styling button:focus {
+    cursor: pointer;
+}
+
+main input[type="text"] {
+    height: 45px;
+    width: 390px;
+    margin-bottom: 23px;
+}
+
+main .shipping-adress-styling div:nth-child(2) span{
+    color: #ff0d0d;
+    font-size: 17px;
+
+}
+
+main .shipping-adress-styling div:nth-child(2) p:nth-child(3) {
+    color: #222222;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+main .shipping-adress-styling div:nth-child(2) p:nth-child(5) {
+    color: #222222;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+main .shipping-adress-styling div:nth-child(2) p:nth-child(7) {
+    color: #ff0d0d;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+main .shipping-adress-styling div:nth-child(2) button {
+    margin-top: 22px;
+    float: left;
+}
+
+main .shipping-adress-styling div:nth-child(2) p:nth-child(2) {
+    margin-bottom: 16px;
+}
+
+.shipping-adress-styling {
+    border-bottom: 1px solid #e8e8e8;
+}
