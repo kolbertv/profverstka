@@ -86,7 +86,7 @@ main summary:focus {
 
 main summary:hover {
     cursor: pointer;
-    border-bottom: 1px solid #f16d7f;
+    /*border-bottom: 1px solid #f16d7f;*/
 }
 
 main .shipping-and-all {
@@ -212,12 +212,39 @@ main .shipping-adress-styling div:nth-child(2) p:nth-child(7) {
 main .shipping-adress-styling div:nth-child(2) button {
     margin-top: 22px;
     float: left;
+    margin-right: 32px;
 }
 
 main .shipping-adress-styling div:nth-child(2) p:nth-child(2) {
     margin-bottom: 16px;
 }
 
+main .shipping-adress-styling div:nth-child(2) p:nth-child(9) {
+    /*text-transform: uppercase;*/
+   margin-top: 40px;
+    margin-left: 32px;
+}
+
+main .shipping-adress-styling div:nth-child(2) {
+    color: #9f9f9f;
+}
+
 .shipping-adress-styling {
+    /*border-bottom: 1px solid #e8e8e8;*/
+}
+
+
+.button_click:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+
+.button_click:active {
+    box-shadow: none;
+}
+
+.shipping-adress {
+    padding-bottom: 20px;
     border-bottom: 1px solid #e8e8e8;
+    margin-top: 20px;
 }
