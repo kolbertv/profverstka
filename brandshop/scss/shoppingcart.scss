@@ -176,11 +176,14 @@ input:focus {
 
 }
 
+
 button {
   text-transform: uppercase;
   border: 1px solid #eaeaea;
   background-color: white;
   color: #4a4a4a;
+  transition: all 0.3s;
+
 }
 
 button:focus {

@@ -175,7 +175,10 @@ button {
   text-transform: uppercase;
   border: 1px solid #eaeaea;
   background-color: white;
-  color: #4a4a4a; }
+  color: #4a4a4a;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
 
 button:focus {
   outline: none; }
