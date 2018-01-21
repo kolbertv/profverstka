@@ -53,7 +53,6 @@ header a {
   font-weight: 500; }
 
 .brand-line > a:nth-child(1) {
-  /*margin-left: 227px;*/
   margin-right: 13px; }
 
 .brand-line > a:nth-child(4) {
@@ -62,11 +61,9 @@ header a {
   margin-top: 9px; }
 
 .brand-line form {
-  /*background-color: aqua;*/
   width: 400px;
   height: 40px;
   margin-left: 37px;
-  /*z-index: -1;*/
   white-space: nowrap; }
 
 .brand-line input[value="Browse"] {
@@ -94,8 +91,7 @@ header a {
   font-weight: 300;
   letter-spacing: 0.35px;
   height: 38px;
-  padding-left: 15px;
-  /*box-sizing: border-box;*/ }
+  padding-left: 15px; }
 
 .brand-line input[value="Browse"]:hover {
   cursor: pointer;
@@ -159,12 +155,16 @@ header a {
   -webkit-text-decoration-line: none;
   text-decoration-line: none;
   color: #222222;
-  padding: 0 10px; }
+  padding: 0 10px;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
 
 .menu-line a:hover {
   color: gray;
-  border-bottom: 3px solid #f16d7f;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  border-bottom: 3px solid #f16d7f; }
 
 .slider {
   position: absolute;
@@ -771,3 +771,13 @@ header a {
 
 .footer-brand-line div:nth-child(3) p {
   margin-top: 30px; }
+
+.brand-line a:nth-child(1) img {
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+.brand-line a:nth-child(1) img:hover {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg); }

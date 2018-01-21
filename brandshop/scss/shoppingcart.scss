@@ -1,5 +1,6 @@
 $main-purple: #f16d7f;
 $text-color: #222222;
+$product-col-width: 120px 200px 100px 100px 100px 100px 100px;
 
 .container {
   height: 150px;
@@ -92,7 +93,7 @@ main .new-arrivals ul li:nth-child(3) a {
 
 @for $i from 1 through 7 {
   .product-col-width div:nth-child(#{$i}) {
-    width: nth(120px 200px 100px 100px 100px 100px 100px, $i)
+    width: nth($product-col-width, $i)
   }
 }
 
@@ -175,7 +176,6 @@ input:focus {
   font-weight: 700;
 
 }
-
 
 button {
   text-transform: uppercase;
@@ -279,7 +279,6 @@ button:active {
   padding-top: 40px;
   box-sizing: border-box;
 }
-
 
 .checkout:after {
   content: "";

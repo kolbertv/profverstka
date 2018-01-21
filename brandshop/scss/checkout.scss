@@ -28,7 +28,7 @@ main .new-arrivals div {
 }
 
 main .new-arrivals p {
-  width: 176px;
+  //width: 176px;
   /*height: 24px;*/
   color: #f16d7f;
   font-size: 24px;
@@ -36,6 +36,12 @@ main .new-arrivals p {
   /*line-height: 40px;*/
   text-transform: uppercase;
   box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+main .new-arrivals p:hover {
+  transform: scale(2, 2);
+  cursor: pointer;
 }
 
 main .new-arrivals ul {
@@ -265,3 +271,6 @@ $details-height-list: 470px 40px 40px 40px 40px 40px;
   }
 }
 
+button {
+  transition: all 0.3s;
+}

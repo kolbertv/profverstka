@@ -30,7 +30,6 @@ main .new-arrivals div {
   align-items: baseline; }
 
 main .new-arrivals p {
-  width: 176px;
   /*height: 24px;*/
   color: #f16d7f;
   font-size: 24px;
@@ -38,7 +37,16 @@ main .new-arrivals p {
   /*line-height: 40px;*/
   text-transform: uppercase;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+
+main .new-arrivals p:hover {
+  -webkit-transform: scale(2, 2);
+  -ms-transform: scale(2, 2);
+  transform: scale(2, 2);
+  cursor: pointer; }
 
 main .new-arrivals ul {
   width: 196px;
@@ -241,3 +249,8 @@ details:not([open]) {
 
 .shipping-and-all details[open]:nth-child(6) {
   height: 40px; }
+
+button {
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
