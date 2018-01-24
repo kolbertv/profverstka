@@ -260,21 +260,19 @@ main .new-arrivals ul li:nth-child(3) a {
   margin-bottom: 16px;
 }
 
-
 select {
   font-family: FontAwesome, sans-serif;
 }
 
-
-select option[value="red"]{
- color:red;
+select option[value="red"] {
+  color: red;
 }
 
 select option[value="green"] {
-  color:green;
+  color: green;
 }
 
 select option[value="blue"] {
-  color:blue;
+  color: blue;
 }
 
