@@ -1,21 +1,25 @@
 *, p {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
-main, html {
-  margin: 0 auto;
-  height: 100%;
-}
-
-body {
-
-  font-family: 'Lato', sans-serif;
-}
+  body {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    height: 100%; }
 
 a {
-  text-decoration: none;
+  text-decoration: none; }
+
+.brand-header-1600 {
+  display: flex;
+  width: 1142px;
+  align-items:center;
+  margin: auto;
+  justify-content: flex-start;
 }
+
+
+
 
 .container {
   position: relative;

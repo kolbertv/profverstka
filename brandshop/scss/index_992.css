@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+HTML {
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-image: url("../img/Index.jpg");
+  opacity: 0.5; }

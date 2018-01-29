@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+HTML {
+
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  //background-image: url("../img/Index.jpg");
+  opacity: 0.1;
+}
+
+@media (min-width: 1600px) {
+
+  HTML {
+    background-image: url("../img/Index.jpg");
+  }
+
+  body {
+    width: 1600px;
+  }
+
+}
+
+@media (max-width: 1600px) {
+  html {
+    background-image: url("../img/index_992.jpg");
+  }
+
+  body {
+    width: 1200px;
+  }
+
+}
