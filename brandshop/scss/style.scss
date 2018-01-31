@@ -65,6 +65,11 @@ button:hover {
 
 button:active {
   box-shadow: none;
+  outline: none;
+}
+
+button:focus {
+  outline: none;
 }
 
 .brand-header-1600 div:nth-child(3) {
@@ -115,6 +120,7 @@ header nav {
   margin: auto;
   margin-bottom: 20px;
   flex-direction: row;
+  padding: 0px (1600px - 680px)/2 ;
 
 }
 
@@ -134,7 +140,7 @@ header nav a {
 }
 
 .thebrandtext {
-  height: 115px;
+  height: 92px;
   padding-left: 12px;
   text-transform: uppercase;
   font-weight: 800;
@@ -149,300 +155,85 @@ header nav a {
 .thebrandtext p:first-child {
   font-size: 60px;
   letter-spacing: 1.5px;
+  line-height: 45px;
 }
 
 .thebrandtext p:nth-child(2) {
   font-size: 40px;
   letter-spacing: 1.0px;
+  line-height: 60px;
 }
 
 .thebrandtext p:nth-child(2) span {
   color: #f16d7f;
 }
 
-
-
-
-
-
-
-
-.container {
-  //position: relative;
-  min-width: 768px;
-  max-width: 1600px;
-  margin: 0 auto;
-  height: 764px;
-}
-
-//header {
-//  height: 100px;
-//  z-index: 100;
-//  position: absolute;
-//}
-//
-//header a {
-//  text-decoration-line: none;
-//  color: rgb(34, 34, 34);
-//}
-//
-//.brand-line {
-//  height: 100px;
-//  width: 1142px;
-//  display: flex;
-//  align-items: center;
-//  margin: 0 auto;
-//}
-//
-//.brand-line h2 {
-//  line-height: 100px;
-//  text-decoration-line: none;
-//  font-size: 27px;
-//  color: rgb(34, 34, 34);
-//  font-weight: 300;
-//}
-//
-//.brand-line h2 span {
-//  color: red;
-//  font-weight: 500;
-//}
-//
-//.brand-line > a:nth-child(1) {
-//  margin-right: 13px;
-//}
-//
-//.brand-line > a:nth-child(4) {
-//  margin-left: 349px;
-//  margin-right: 26px;
-//  margin-top: 9px;
-//}
-//
-//.brand-line form {
-//  width: 400px;
-//  height: 40px;
-//  margin-left: 37px;
-//  white-space: nowrap;
-//}
-//
-//.brand-line input[value="Browse"] {
-//  height: inherit;
-//  width: 87px;
-//  border: 1px solid #e6e6e6;
-//  outline: none;
-//  background-color: #cdcdcc;
-//  background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
-//  font-size: 14px;
-//  font-weight: 300;
-//  letter-spacing: 0.35px;
-//  color: #a4a4a4;;
-//}
-//
-//.brand-line input[placeholder="Search for item.."] {
-//  height: inherit;
-//  width: 270px;
-//  outline: none;
-//  border: 1px solid #e6e6e6;
-//  color: #a4a4a4;
-//  font-size: 14px;
-//  font-weight: 300;
-//  letter-spacing: 0.35px;
-//  height: 38px;
-//  padding-left: 15px;
-//}
-//
-//.brand-line input[value="Browse"]:hover {
-//  cursor: pointer;
-//  color: black;
-//}
-//
-//.brand-line form button {
-//  height: inherit;
-//  width: 36px;
-//  background-color: white;
-//  border: 1px solid #e6e6e6;
-//  outline: none;
-//  color: #a4a4a4;
-//}
-//
-//.brand-line form button:hover {
-//  cursor: pointer;
-//  color: black;
-//}
-//
-//.myaccount {
-//  width: 130px;
-//  height: 38px;
-//  background-color: #f16d7f;
-//  text-align: center;
-//  color: white;
-//  letter-spacing: 0.38px;
-//  font-size: 15px;
-//  font-weight: 400;
-//  line-height: 32px;
-//}
-//
-//.myaccount i {
-//  padding-left: 2px;
-//}
-//
-//.myaccount:hover {
-//  cursor: pointer;
-//  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
-//}
-//
-//.myaccount:active {
-//  box-shadow: none;
-//}
-//
-//.menu-line {
-//  height: 50px;
-//  width: 1600px;
-//  background-color: white;
-//  text-align: center;
-//  border-top: 1px solid rgb(236, 236, 236);
-//
-//}
-//
-//.menu-line ul li {
-//  display: inline;
-//  line-height: 50px;
-//  font-size: 14px;
-//  font-weight: 700;
-//  text-transform: uppercase;
-//  margin: 0 13px;
-//}
-//
-//.menu-line ul {
-//  /*height: 50px;*/
-//  /*vertical-align: middle;*/
-//}
-//
-//.menu-line a {
-//  text-decoration-line: none;
-//  color: rgb(34, 34, 34);
-//  padding: 0 10px;
-//
-//  border-bottom: 3px solid transparent;
-//  transition: all 1s;
-//}
-//
-//.menu-line a:hover {
-//  color: gray;
-//  padding-bottom: 15px;
-//  border-bottom: 3px solid #f16d7f;
-//
-//}
-
-.slider {
-  //position: absolute;
-  top: 100px;
-  z-index: 0;
-}
-
-.thebrand {
-  //position: absolute;
-  width: 600px;
-  top: 376px;
-  left: 230px;
-}
-
-.thebrandred {
-  height: 92px;
-  width: 12px;
-  background-color: #f16d7f;
-  float: left;
-  margin-top: 10px;
-  padding-top: 10px;
-  margin-right: 19px;
-}
-
-
-
-.category {
-  position: relative;
-  /*top: 862px;*/
-  height: 823px;
-  width: 1141px;
+.category-1600 {
+  width: 1140px;
+  height: 830px;
   margin: 100px auto;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
 
-.layer30 {
-  position: absolute;
+.layer30-1600 {
+  margin-bottom: 20px;
+  background-image: url("../img/layer-30.png");
   width: 560px;
   height: 542px;
-  float: left;
-  z-index: 1;
 }
 
-.layer32 {
-  position: absolute;
+
+.layer37-1600 {
+  background-image: url("../img/2-layers.png");
   width: 560px;
   height: 261px;
-  right: 0px;
 }
 
-.layer37 {
-  position: absolute;
+.layer32-1600 {
+  margin-bottom: 20px;
   width: 560px;
   height: 261px;
-  background-color: #dadad2;
-  bottom: 0px;
+  background-image: url("../img/layer-32.png");
 }
 
-.layer37 img {
-  padding-left: 149px;
-}
-
-.layer31 {
-  position: absolute;
+.layer31-1600 {
+  background-image: url("../img/layer-31.png");
   width: 560px;
   height: 542px;
-  bottom: 0px;
-  right: 0px;
 }
 
-.layertextstyle {
-  position: absolute;
-  text-transform: uppercase;
-  font-weight: 800;
-  z-index: 10;
-  background-color: white;
+.layer-1600-text {
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 16px 0;
   padding: 16px 20px;
-  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  height: 50px;
 }
 
-.layertextstyle p:nth-child(1) {
-  font-size: 18px;
+.layer-1600-text p:nth-child(1) {
   letter-spacing: 0.45px;
 }
 
-.layertextstyle p:nth-child(2) {
+.layer-1600-text p:nth-child(2) {
+  color: #f16d7f;
   font-size: 30px;
   letter-spacing: 0.75px;
-  color: #f16d7f;
 }
 
-.layer30text {
 
-  margin-top: 26px;
-}
 
-.layer32text {
 
-  margin-top: 26px;
-  left: 581px;
-}
 
-.layer37text {
 
-  bottom: 145px;
-}
 
-.layer31text {
 
-  bottom: 425px;
-  left: 581px;
-}
 
 .layer30:hover {
   cursor: pointer;
