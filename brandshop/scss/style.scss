@@ -1,3 +1,12 @@
+$product-url: url(../img/layer-2.jpg)
+url(../img/layer-3.jpg)
+url(../img/layer-4.jpg)
+url(../img/layer-5.jpg)
+url(../img/layer-6.jpg)
+url(../img/layer-7.jpg)
+url(../img/layer-8.jpg)
+url(../img/layer-9.jpg);
+
 *, p {
   padding: 0;
   margin: 0;
@@ -227,45 +236,9 @@ header nav a {
   letter-spacing: 0.75px;
 }
 
-
-
-
-
-
-
-
-
-.layer30:hover {
+.layer30-1600:hover, .layer37-1600:hover, .layer32-1600:hover, .layer31-1600:hover {
   cursor: pointer;
-}
-
-.layer32:hover {
-  cursor: pointer;
-}
-
-.layer37:hover {
-  cursor: pointer;
-}
-
-.layer31:hover {
-  cursor: pointer;
-}
-
-.layer30:hover ~ .layer30text {
-  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.16);
-
-}
-
-.layer32:hover ~ .layer32text {
-  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.16);
-}
-
-.layer37:hover ~ .layer37text {
-  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.16);
-}
-
-.layer31:hover ~ .layer31text {
-  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
 }
 
 .featureditems {
@@ -294,120 +267,91 @@ header nav a {
   line-height: 54px;
 }
 
-.product {
-  height: 930px;
-  width: 1200px;
+.product-1600 {
+  width: 1142px;
+  height: 750px;
+  display: flex;
   margin: 0 auto;
-  /*background-color: aqua;*/
-
-}
-
-.product-item-flex {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: center;
+  justify-content: space-between;
+  align-content: space-between;
+margin-bottom: 89px;
+
+
+  //border:  1px solid black;
 }
 
-.product-item-flex a {
-  text-decoration: none;
-}
+@for $i from 1 through 8 {
+  .product-1600>div:nth-child(#{$i}) {
+    width: 263px;
+    height: 364px;
+    //border: 1px solid green;
+  }
 
-.item-flex {
-  /*background-color: aquamarine;*/
-  height: 364px;
-  width: 263px;
-  margin: 16px;
-
-}
-
-.item-flex img {
-  position: absolute;
-  width: 263px;
-  height: 280px;
-}
-
-.item-flex:hover {
-  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
-}
-
-.item-flex > div {
-  width: 263px;
-  height: 280px;
-  display: flex;
-  /*flex-direction: column;*/
-}
-
-.item-flex > div:before {
-  content: "Add to cart";
-  display: block;
-  width: 100px;
-  height: 40px;
-  border: 2px solid white;
-  margin: auto;
-  text-align: center;
-  line-height: 40px;
-  color: white;
-}
-
-.item-flex:hover div {
-  background-color: black;
+  .product-1600>div:nth-child(#{$i}):hover {
+    cursor: pointer;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+  }
+  .product-1600>div:nth-child(#{$i}):active {
+    box-shadow: none;
+  }
 
 }
 
-.item-flex:hover > div > img {
-  opacity: 0.3;
+@for $i from 1 through 8 {
+  .product-1600>div:nth-child(#{$i}) {
+    background-image: nth($product-url, $i);
+    background-repeat: no-repeat;
+  }
 }
 
-.item-text-style p {
-  padding-left: 14px;
-}
-
-.item-text-style p:nth-child(2) {
-  height: 11px;
-  color: #222222;
-  font-size: 13px;
-  font-weight: 400;
-  text-transform: uppercase;
-  padding-top: 20px;
-  padding-bottom: 17px;
-}
-
-.item-text-style p:nth-child(3) {
-  height: 15px;
-  color: #f16d7f;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.browseproduct {
-  width: 215px;
+.product-1600-button {
+  width: 212px;
+  height: 48px;
   background-color: #f16d7f;
-  margin: 80px auto 0 auto;
-  padding: 16px 24px;
-  box-sizing: border-box;
-
-}
-
-.browseproduct p {
-  color: white;
-  text-align: center;
-  height: 20px;
+  background-image: none;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.4px;
-  /*padding: 18px 24px;*/
+  margin: auto;
 }
 
-.browseproduct:hover {
-  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
-  cursor: pointer;
+.product-1600-text {
+  margin-left: 15px;
+  margin-top: 300px;
 }
 
-.browseproduct:active {
-  box-shadow: none;
+.product-1600-text P {
+  text-transform: uppercase;
 }
+
+.product-1600-text p:nth-child(1){
+  color: #222222;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 15px;
+
+}
+
+.product-1600-text p:nth-child(2) {
+  color: #f16d7f;
+  font-size: 16px;
+  font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .feature {
   width: 1140px;
