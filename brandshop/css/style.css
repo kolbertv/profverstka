@@ -790,10 +790,12 @@ header nav a {
     width: 1400px;
     border: 1px solid black; }
   .brand-header-1400 div:nth-child(1) {
-    background-image: url("../img/4-layers.png");
     border: 1px solid black;
     height: 74px;
     width: 74px; }
+  .brand-header-1400 img {
+    height: 74px;
+    width: 75px; }
   .thebrandtext {
     margin-left: 800px;
     margin-top: 327px; }
@@ -805,5 +807,6 @@ header nav a {
     position: absolute;
     text-align: right;
     top: 75px;
+    right: 75px;
     margin: 0;
     padding: 0; } }
