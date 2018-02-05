@@ -5,7 +5,8 @@
 body {
   font-family: 'Lato', sans-serif;
   margin: 0 auto;
-  height: 100%; }
+  height: 100%;
+  overflow-x: hidden; }
 
 a {
   text-decoration: none; }
@@ -778,11 +779,54 @@ header nav a {
 .brand-header-1400 {
   display: none; }
 
+.slider-1400 {
+  display: none; }
+
+.category-1400 {
+  display: none; }
+
+.product-1400 {
+  display: none; }
+
 @media screen and (max-width: 1400px) {
   .brand-header-1600 {
     display: none; }
   .slider-1600 {
     display: none; }
+  .category-1600 {
+    display: none; }
+  .category-1400 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 472px;
+    width: 1140px;
+    margin: auto;
+    margin-top: 98px;
+    margin-bottom: 98px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .category-1400 > div:nth-child(1) {
+    background-image: url("../img/layer-20.jpg");
+    height: 260px;
+    width: 360px; }
+  .category-1400 > div:nth-child(2) {
+    background-image: url("../img/layer-21.jpg");
+    height: 260px;
+    width: 360px; }
+  .category-1400 > div:nth-child(3) {
+    background-image: url("../img/layer-22.png");
+    height: 260px;
+    width: 360px; }
+  .category-1400 > div:nth-child(4) {
+    background-image: url("../img/layer-23.png");
+    height: 180px;
+    width: 1140px; }
   header > nav {
     display: none; }
   .brand-header-1400 {
@@ -823,13 +867,16 @@ header nav a {
     position: absolute;
     text-align: right;
     top: 75px;
-    right: -300px; }
+    right: -450px;
+    opacity: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
   label[for="menu"] {
     margin-left: 950px;
     display: block;
     width: 34px;
     height: 34px;
-    border: 1px solid black;
     cursor: pointer;
     padding: 20px;
     position: relative; }
@@ -837,17 +884,17 @@ header nav a {
     height: 3px;
     width: 32px;
     background-color: #595959;
-    -webkit-transition: 0.3s ease-out;
-    -o-transition: 0.3s ease-out;
-    transition: 0.3s ease-out;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
     margin: 5px auto; }
   label[for="menu"] > p {
     position: absolute;
     opacity: 0;
     text-align: center;
-    -webkit-transition: 0.5s ease-out;
-    -o-transition: 0.5s ease-out;
-    transition: 0.5s ease-out;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
     top: 30px;
     left: 13px; }
   .menu, #menu {
@@ -855,7 +902,9 @@ header nav a {
   #menu {
     display: none; }
   #menu:checked ~ .menu {
-    visibility: visible; }
+    visibility: visible;
+    right: -280px;
+    opacity: 1; }
   #menu:checked ~ .menu-label > div:nth-child(1) {
     -webkit-transform: translate(0px, -5px);
     -ms-transform: translate(0px, -5px);
@@ -867,4 +916,40 @@ header nav a {
     -ms-transform: translate(0px, 5px);
     transform: translate(0px, 5px); }
   #menu:checked ~ .menu-label > p {
-    opacity: 1; } }
+    opacity: 1; }
+  .product-1600 {
+    display: none; }
+  .product-1400 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 1166px;
+    width: 1140px;
+    margin: auto;
+    margin-bottom: 59px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .product-1400 > div {
+    width: 350px;
+    background-color: #f8f8f8; }
+  .product-1400 > div:nth-child(1) {
+    height: 581px; }
+  .product-1400 > div:nth-child(2) {
+    height: 503px; }
+  .product-1400 > div:nth-child(3) {
+    height: 545px; }
+  .product-1400 > div:nth-child(4) {
+    height: 581px; }
+  .product-1400 > div:nth-child(5) {
+    height: 548px; }
+  .product-1400 > div:nth-child(6) {
+    height: 548px; } }
