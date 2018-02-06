@@ -925,6 +925,18 @@ header nav a {
     //border: 1px solid lawngreen;
   }
 
+  .product-1400 > div:hover {
+    box-shadow: 0 2px 21px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+  }
+
+  .product-1400 > div:hover div:nth-child(1) {
+    background-color: black;
+  }
+
+  .product-1400 > div:hover img {
+    opacity: 0.3;
+  }
 
   $product-heigth: 581px 503px 545px 581px 548px 548px;
 
@@ -933,6 +945,58 @@ header nav a {
       height: nth($product-heigth, $i);
     }
 
+  }
+
+  .category-1400-text > p:nth-child(1) {
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.33px;
+    margin-left: 18px;
+    margin-top: 18px;
+  }
+
+  .category-1400-text > p:nth-child(2) {
+    margin-left: 18px;
+    color: #5d5d5d;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.35px;
+    margin-top: 18px;
+
+  }
+
+  .category-1400-text > p:nth-child(3) {
+    margin-left: 18px;
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 20px;
+    margin-top: 18px;
+  }
+
+  .product-1400 > div div:nth-child(1):before {
+    position: absolute;
+    //width: 139px;
+    //height: 44px;
+    display: none;
+    border: 1px solid #ffffff;
+    content: "Add to Cart";
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 135px;
+    margin-left: 106px;
+    padding: 20px;
+
+  }
+
+  .product-1400 > div:hover div:nth-child(1):before {
+    display: block;
   }
 
 }
